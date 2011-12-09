@@ -1,9 +1,9 @@
 /*
 Syntax error: Invalid CSS after "...reen and (max-	": expected ")", was "width: 1023px) {"
-        on line 192 of /var/www/base/src/css/gyaku.scss
+        on line 192 of /var/www/base/css/src/gyaku.scss
 
 Backtrace:
-/var/www/base/src/css/gyaku.scss:192
+/var/www/base/css/src/gyaku.scss:192
 /home/ethan/.rvm/gems/ruby-1.9.2-head/gems/sass-3.1.11/lib/sass/scss/parser.rb:926:in `expected'
 /home/ethan/.rvm/gems/ruby-1.9.2-head/gems/sass-3.1.11/lib/sass/scss/parser.rb:872:in `expected'
 /home/ethan/.rvm/gems/ruby-1.9.2-head/gems/sass-3.1.11/lib/sass/scss/parser.rb:867:in `tok!'
@@ -48,4 +48,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"...reen and (max-	\": expected \")\", was \"width: 1023px) {\"\A         on line 192 of /var/www/base/src/css/gyaku.scss"; }
+  content: "Syntax error: Invalid CSS after \"...reen and (max-	\": expected \")\", was \"width: 1023px) {\"\A         on line 192 of /var/www/base/css/src/gyaku.scss"; }

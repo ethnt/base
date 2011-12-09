@@ -8,3 +8,5 @@ This is my base template for HTML projects. To compile SCSS and CoffeeScript, yo
 To compile the files, run the Rake script.
 
     rake compile
+    rake watch:scss
+    rake watch:coffee

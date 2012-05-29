@@ -1,6 +1,6 @@
 # Base
 
-This is my port of the excellent [HTML5 Boilerplate](http://html5boilerplate.com/). I've added [Compass](http://compass-style.org) (with [Susy](http://susy.oddbird.net/)) and (CoffeeScript)[http://coffeescript.org].
+This is my port of the excellent [HTML5 Boilerplate](http://html5boilerplate.com/). I've added [Compass](http://compass-style.org) (with [Susy](http://susy.oddbird.net/)) and [CoffeeScript](http://coffeescript.org).
 
 ### Installation
 

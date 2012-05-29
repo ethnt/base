@@ -1,9 +1,5 @@
-/*
-	Base
-		file: css/src/_base.scss
-*/
-
 @import "compass";
+@import "compass/reset";
 
-@import "reset";
 @import "grid";
+@import "fonts";

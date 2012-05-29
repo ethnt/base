@@ -5,7 +5,7 @@ class Base < Thor
     `coffee --compile --output jsc/ jsc/src/`
   end
 
-  desc "watch", "Watch css/ and jsc/ for changes."
+  desc "watch", "Watch Coffee and SCSS for changes."
   def watch
     `compass watch &`
     `coffee --compile --output jsc/ jsc/src/ --watch &`

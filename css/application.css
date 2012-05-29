@@ -2,96 +2,71 @@
 	
 		file: css/application.css
 */
-/*
-	Base
-		file: css/src/_base.scss
-*/
-/*
-	Base
-		file: css/src/_reset.scss
-*/
-/*
-	HTML5 Reset Stylesheet by HTML5 Doctor (http: //coo.ly/iEv)
-*/
-html, body, div, span, object, iframe,
+/* line 17, ../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  background: transparent;
+  margin: 0;
+  padding: 0;
   border: 0;
+  font: inherit;
   font-size: 100%;
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
-body {
-  line-height: 1; }
+/* line 22, ../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
+/* line 24, ../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
 
-nav ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none; }
-
-a {
-  background: transparent;
-  font-size: 100%;
-  margin: 0;
-  padding: 0;
-  vertical-align: baseline; }
-
-ins {
-  background-color: #ff9;
-  color: #000;
-  text-decoration: none; }
-
-mark {
-  background-color: #ff9;
-  color: #000;
-  font-style: italic;
-  font-weight: bold; }
-
-del {
-  text-decoration: line-through; }
-
-abbr[title], dfn[title] {
-  border-bottom: 1px dotted;
-  cursor: help; }
-
+/* line 26, ../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
-hr {
-  border: 0;
-  border-top: 1px solid #cccccc;
+/* line 28, ../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
-  height: 1px;
-  margin: 1em 0;
-  padding: 0; }
+}
 
-input, select {
-  vertical-align: middle; }
-
-/*
-	Base
-		file: css/src/_grid.scss
-*/
 /*
 	= Appendix
 		I. Media Queries
@@ -101,9 +76,11 @@ input, select {
 	I. Media Queries
 */
 @media handheld, only screen and (max-width: 767px) {
-  /* Handheld devices. */ }
+  /* Handheld devices. */
+}
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  /* iPhone 4 */ }
+  /* iPhone 4 */
+}
 /*
 	II. 
 */

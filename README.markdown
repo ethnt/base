@@ -1,12 +1,22 @@
 # Base
 
-This is my base template for HTML projects. To compile SCSS and CoffeeScript, you need to install Rake, Compass, and CoffeeScript.
+This is my port of the excellent [HTML5 Boilerplate](http://html5boilerplate.com/). I've added [Compass](http://compass-style.org) (with [Susy](http://susy.oddbird.net/)) and (CoffeeScript)[http://coffeescript.org].
 
-    npm install -g coffee-script
-    gem install rake compass
+### Installation
 
-To compile the files, run the Rake script.
+You'll need the following ingredients.
 
-    rake compile
-    rake watch:scss
-    rake watch:coffee
+1. Get Ruby 1.9.3 (via RVM, ruby-env or what have you).
+2. Get Bundler (`gem install bundler`).
+3. Install the dependencies (`bundle install`).
+
+### Usage
+
+To compile the SCSS and CoffeeScript, you run the Thor command provided.
+
+    bundle exec thor base:compile
+
+To watch the SCSS and CoffeeScript for changes, you can run one of the following two commands (though Guard is preferred).
+
+    bundle exec guard
+    bundle exec thor base:watch

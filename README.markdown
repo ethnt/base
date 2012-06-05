@@ -14,9 +14,9 @@ You'll need the following ingredients.
 
 To compile the SCSS and CoffeeScript, you run the Thor command provided.
 
-    bundle exec thor base:compile
+    bundle exec thor compile
 
 To watch the SCSS and CoffeeScript for changes, you can run one of the following two commands (though Guard is preferred).
 
     bundle exec guard
-    bundle exec thor base:watch
+    bundle exec thor watch

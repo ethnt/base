@@ -1,4 +1,4 @@
-class Base < Thor
+class Default < Thor
   desc "compile", "Compile Coffee and SCSS."
   def compile
     `compass compile`

@@ -9,6 +9,7 @@ gem 'guard-compass'
 gem 'guard-coffeescript'
 
 gem 'compass'
+gem 'compass-normalize'
 gem 'susy'
 
 gem 'coffee-script'

@@ -1,3 +1,4 @@
+require "compass-normalize"
 require "susy"
 
 environment = :development

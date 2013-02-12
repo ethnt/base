@@ -1,8 +1,10 @@
 # Base
 
-A starting HTML5 template. Needs Ruby and the like.
+Includes a basic HTML page, SCSS, and CoffeeScript. To compile the assets, you need Ruby.
 
 ```
 bundle install
-bundle exec thor compile
+
+bundle exec compass watch
+bundle exec coffee --compile --output jsc/ jsc/src/ --watch
 ```

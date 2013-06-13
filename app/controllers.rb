@@ -1,5 +1,5 @@
 Base::App.controllers do
   get :index do
-    'Hello, world.'
+    render :index
   end
 end
